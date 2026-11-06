@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08090f" />
+
+    <title>Ambient Flow — YouTube, Beyond the Frame</title>
+
+    <meta
+      name="description"
+      content="Transform your YouTube experience with beautiful, adaptive ambient lighting."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Background decoration -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header class="navbar container">
+      <a href="#" class="brand">
+        <span class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 2.5L14.5 9.5L21.5 12L14.5 14.5L12 21.5L9.5 14.5L2.5 12L9.5 9.5L12 2.5Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span>ambient<span class="brand-light">flow</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#controls">Controls</a>
+      </nav>
+
+      <a
+        href="https://chromewebstore.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="nav-button"
+      >
+        Add to Chrome <span>↗</span>
+      </a>
+    </header>
+
+    <!-- Hero -->
+    <main>
+      <section class="hero container">
+        <div class="hero-content">
+          <div class="eyebrow">
+            <span class="live-dot"></span>
+            YOUR YOUTUBE, REIMAGINED
+          </div>
+
+          <h1>
+            Let your videos
+            <span class="gradient-text">glow beyond</span>
+            the screen.
+          </h1>
+
+          <p class="hero-description">
+            Experience YouTube in a whole new light. Ambient Flow transforms the
+            colors of your videos into beautiful, immersive lighting around your
+            player.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="https://chromewebstore.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="primary-button"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
+                            10-4.48 10-10S17.52 2 12 2Zm0 2a8 8 0 0 1
+                            7.93 7H12a3 3 0 0 0-2.65 1.6L6.2 7.3A7.96
+                            7.96 0 0 1 12 4Zm-8 8c0-1.12.23-2.18.65-3.15
+                            l3.52 6.1A3 3 0 0 0 11 16h.1l-1.55 3.2A8
+                            8 0 0 1 4 12Zm8 8c-1.1 0-2.16-.22-3.12-.64
+                            l1.76-3.62a3 3 0 0 0 4.05-3.48h3.24A8 8 0
+                            0 1 12 20Z"
+                />
+              </svg>
+              Get Ambient Flow
+            </a>
+
+            <a href="#features" class="secondary-button">
+              Explore features <span>↓</span>
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="check-icon">✓</span>
+            Made for a more immersive YouTube experience
+          </div>
+        </div>
+
+        <!-- Visual demo -->
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+
+          <div class="demo-window">
+            <div class="window-header">
+              <div class="window-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="window-address"><span>▶</span> youtube.com/watch</div>
+
+              <div class="window-menu">•••</div>
+            </div>
+
+            <div class="video-area">
+              <div class="video-light"></div>
+
+              <div class="video-scene">
+                <div class="sun"></div>
+                <div class="mountain mountain-back"></div>
+                <div class="mountain mountain-front"></div>
+                <div class="video-caption">
+                  <span>AMBIENT FLOW</span>
+                  <strong>Beyond the frame.</strong>
+                </div>
+              </div>
+
+              <div class="video-controls">
+                <span>▶</span>
+                <div class="progress">
+                  <span></span>
+                </div>
+                <span>4:28</span>
+                <span>⚙</span>
+                <span>⛶</span>
+              </div>
+            </div>
+
+            <div class="demo-info">
+              <div>
+                <strong>Explore the atmosphere</strong>
+                <p>Ambient lighting is active</p>
+              </div>
+
+              <div class="active-status"><span></span> ON</div>
+            </div>
+          </div>
+
+          <div class="floating-card">
+            <div class="floating-icon">✦</div>
+            <div>
+              <strong>Colors detected</strong>
+              <p>Adapting to your video</p>
+            </div>
+            <div class="color-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="visual-label">
+            <span class="live-dot"></span>
+            LIVE AMBIENT PREVIEW
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature introduction -->
+      <section class="intro-section container" id="features">
+        <div class="section-heading">
+          <span class="section-label">THE EXPERIENCE</span>
+          <h2>More than just a video player.</h2>
+          <p>
+            Your screen shouldn't stop at the edges of the video. Ambient Flow
+            brings your content to life.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-large">
+            <div class="feature-visual color-visual">
+              <div class="color-orb orb-one"></div>
+              <div class="color-orb orb-two"></div>
+              <div class="color-orb orb-three"></div>
+              <div class="mini-screen">
+                <span>▶</span>
+              </div>
+            </div>
+
+            <div class="feature-content">
+              <span class="feature-number">01 / IMMERSION</span>
+              <h3>Colors that come alive.</h3>
+              <p>
+                Ambient Flow samples the colors in your playing video and
+                creates a matching glow around the video area. Every scene
+                brings a different atmosphere.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-visual focus-visual">
+              <div class="focus-frame">
+                <span>VIDEO</span>
+              </div>
+              <div class="focus-line"></div>
+            </div>
+
+            <div class="feature-content">
+              <span class="feature-number">02 / FOCUS</span>
+              <h3>Focus mode.</h3>
+              <p>
+                Reduce distractions and give your video the attention it
+                deserves with a cleaner viewing experience.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-visual settings-visual">
+              <div class="setting-row">
+                <span>Intensity</span>
+                <div class="fake-slider"><span></span></div>
+                <b>65%</b>
+              </div>
+
+              <div class="setting-row">
+                <span>Blur</span>
+                <div class="fake-slider blur-slider"><span></span></div>
+                <b>90%</b>
+              </div>
+
+              <div class="setting-badge"><span></span> PERSONALIZED</div>
+            </div>
+
+            <div class="feature-content">
+              <span class="feature-number">03 / CUSTOMIZATION</span>
+              <h3>Your atmosphere. Your rules.</h3>
+              <p>
+                Adjust ambient intensity and blur to find your perfect balance.
+                Make the glow subtle or let it fill your surroundings.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-visual smart-visual">
+              <div class="smart-center">✦</div>
+              <div class="smart-ring ring-one"></div>
+              <div class="smart-ring ring-two"></div>
+              <span class="smart-text">AUTO ADAPT</span>
+            </div>
+
+            <div class="feature-content">
+              <span class="feature-number">04 / SMART DETECTION</span>
+              <h3>Always in sync.</h3>
+              <p>
+                Video color sampling detects visual changes and updates the
+                surrounding glow smoothly, without needing you to adjust it
+                manually.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="how-section" id="how-it-works">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-label">SIMPLE BY DESIGN</span>
+            <h2>Three steps. One beautiful experience.</h2>
+            <p>No complicated setup. Just install, play, and enjoy.</p>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step">
+              <div class="step-icon">01</div>
+              <h3>Install</h3>
+              <p>Add Ambient Flow to your Chrome browser and open YouTube.</p>
+            </div>
+
+            <div class="step-connector"></div>
+
+            <div class="step">
+              <div class="step-icon">02</div>
+              <h3>Activate</h3>
+              <p>
+                Turn on ambient lighting and let the extension detect the colors
+                of your video.
+              </p>
+            </div>
+
+            <div class="step-connector"></div>
+
+            <div class="step">
+              <div class="step-icon">03</div>
+              <h3>Immerse</h3>
+              <p>
+                Enjoy adaptive lighting, customize the glow, and switch to focus
+                mode whenever you like.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Controls -->
+      <section class="controls-section container" id="controls">
+        <div class="controls-copy">
+          <span class="section-label">TAKE CONTROL</span>
+
+          <h2>
+            Your experience.
+            <span class="gradient-text">Your shortcuts.</span>
+          </h2>
+
+          <p>
+            Control your viewing experience without digging through menus. Use
+            keyboard shortcuts for quick access.
+          </p>
+
+          <div class="shortcut-list">
+            <div class="shortcut">
+              <div>
+                <strong>Ambient toggle</strong>
+                <p>Turn ambient lighting on or off.</p>
+              </div>
+              <kbd>Alt</kbd><span>+</span><kbd>Shift</kbd> <span>+</span
+              ><kbd>A</kbd>
+            </div>
+
+            <div class="shortcut">
+              <div>
+                <strong>Focus mode</strong>
+                <p>Switch to a distraction-free view.</p>
+              </div>
+              <kbd>Alt</kbd><span>+</span><kbd>Shift</kbd> <span>+</span
+              ><kbd>F</kbd>
+            </div>
+          </div>
+
+          <p class="shortcut-note">
+            You can review or customize available shortcuts in Chrome's
+            extension keyboard shortcut settings.
+          </p>
+        </div>
+
+        <div class="controls-preview">
+          <div class="preview-glow"></div>
+
+          <div class="control-panel">
+            <div class="panel-header">
+              <div class="panel-brand">
+                <span class="brand-icon">✦</span>
+                <strong>Ambient Flow</strong>
+              </div>
+              <span class="panel-menu">•••</span>
+            </div>
+
+            <div class="panel-status">
+              <div>
+                <span class="live-dot"></span>
+                <strong>Ambient lighting</strong>
+                <p>Enhancing your video experience</p>
+              </div>
+              <div class="toggle-switch">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="panel-divider"></div>
+
+            <div class="panel-setting">
+              <div>
+                <strong>Intensity</strong>
+                <span>65%</span>
+              </div>
+              <div class="panel-slider">
+                <span class="intensity-fill"></span>
+              </div>
+            </div>
+
+            <div class="panel-setting">
+              <div>
+                <strong>Blur</strong>
+                <span>90%</span>
+              </div>
+              <div class="panel-slider">
+                <span class="blur-fill"></span>
+              </div>
+            </div>
+
+            <div class="panel-footer">
+              <span>✦</span>
+              Adaptive color detection enabled
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final CTA -->
+      <section class="cta-section container">
+        <div class="cta-glow"></div>
+
+        <div class="cta-content">
+          <span class="section-label">CHANGE THE WAY YOU WATCH</span>
+
+          <h2>
+            Don't just watch it.
+            <span class="gradient-text">Feel it.</span>
+          </h2>
+
+          <p>
+            Bring your YouTube experience beyond the frame with Ambient Flow.
+          </p>
+
+          <a
+            href="https://chromewebstore.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="primary-button"
+          >
+            Get Ambient Flow <span>↗</span>
+          </a>
+        </div>
+
+        <div class="cta-decoration">✦</div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer container">
+      <a href="#" class="brand">
+        <span class="brand-icon">✦</span>
+        <span>ambient<span class="brand-light">flow</span></span>
+      </a>
+
+      <p>Made for a more immersive YouTube experience.</p>
+
+      <span class="copyright"> © 2026 Ambient Flow. All rights reserved. </span>
+    </footer>
+  </body>
+</html>
